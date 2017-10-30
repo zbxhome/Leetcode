@@ -1,5 +1,3 @@
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
-
 ## 164 Maximal Gap ##
 我采用的方法是基数排序(radix sort)，对于输入大小为n的数组nums,从其二进制表示的最小位到最大位依次做基数排序，所以时间复杂度为O(32*(n+2)) \\( \approx \\)  O(n)
 
